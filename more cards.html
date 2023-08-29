@@ -1,0 +1,128 @@
+<!-- <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>more collections</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+   - Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/morecards.css">
+    <!-- Demo styles -->
+  </head>
+
+  <body>
+    <a href="Index.html" class="close">&times;  
+    </a>
+       <div data-aos="fade-up"
+       data-aos-anchor-placement="bottom-bottom" class="sl">
+          <div class="swiper mySwiper1">
+           <!-- <h1 id="heading3">Hollywood Movies</h1> -->
+               <div class="swiper-wrapper">
+                 <div class="swiper-slide ssi">
+                   <img src="images/Poster-of-Zindagi-Kitni-Haseen-hay.jpg" id="img"/>
+                   <h4 class="he" id="h1">Their friend Sherry, a divorce lawyer, returns to Pakistan from US to meet them, only to discover that their lives are literally miserable because of their wives. Hence, he decides to take his friends to a boys trip to Bangkok to add some spice and excitement to their lives.
+                     <br> <a id="icon" href=""><i class="fa-regular fa-eye"></i></a> <a id="icon" href=""><i class="fa-solid fa-play videoModalTriger"></i></a>
+                   </h4>
+                 </div>
+                 <div class="swiper-slide ssi">
+                   <img src="images/ho mann jahan1.jpg" id="img"/>
+                   <h4 class="he" id="h1">Three years after the destruction of the Jurassic World theme park, Owen Grady and Claire Dearing return to the island of Isla Nublar to save the remaining dinosaurs from a volcano that's about to erupt. They soon encounter terrifying new breeds of gigantic dinosaurs, while uncovering a conspiracy that threatens the entire planet.
+                     <br> <a id="icon" href=""><i class="fa-regular fa-eye"></i></a> <a id="icon" href=""><i class="fa-solid fa-play videoModalTriger"></i></a>
+                   </h4>
+                 </div>
+                 <div class="swiper-slide ssi">
+                   <img src="images/janaan.jpg" id="img"/>
+                   <h4 class="he" id="h1">Members of the crypto-zoological agency Monarch face off against a battery of god-sized monsters, including the mighty Godzilla, who collides with Mothra, Rodan, and his ultimate nemesis, the three-headed King Ghidorah.                  
+                     <br> <a id="icon" href=""><i class="fa-regular fa-eye"></i></a> <a id="icon" href=""><i class="fa-solid fa-play videoModalTriger"></i></a>
+                   </h4>
+                 </div>
+                 <div class="swiper-slide ssi">
+                   <img src="images/loadwedding.jpg" id="img"/>
+                   <h4 class="he" id="h1">
+                    Eddie Brock is still struggling to coexist with the shape-shifting extraterrestrial Venom. When deranged serial killer Cletus Kasady also becomes host to an alien symbiote, Brock and Venom must put aside their differences to stop his reign of terror.
+                     <br> <a id="icon" href=""><i class="fa-regular fa-eye"></i></a> <a id="icon" href=""><i class="fa-solid fa-play videoModalTriger"></i></a>
+                   </h4>
+                 </div>
+                 <div class="swiper-slide ssi">
+                   <img src="images/parwaazhaijunoon.jpg" id="img"/>
+                   <h4 class="he" id="h1">A story of the aliens that are actually humans, while Peter, his family, and everyone else on Earth are robots. Peter and Lizzy were originally maintenance robots, whose romance was sparked amid a rising tide of anti-robot sentiment.
+                     <br> <a id="icon" href=""><i class="fa-regular fa-eye"></i></a> <a id="icon" href=""><i class="fa-solid fa-play videoModalTriger"></i></a>
+                   </h4>
+                 </div>
+                 <div class="swiper-slide ssi">
+                   <img src="images/naa maloom afraad.jpg" id="img"/>
+                   <h4 class="he" id="h1">One of the most sensational cases from their files, it starts with a fight for the soul of a young boy, then takes them beyond anything they'd ever seen before, to mark the first time in U.S. history that a murder suspect would claim demonic possession as a defense.
+                     <br> <a id="icon" href=""><i class="fa-regular fa-eye"></i></a> <a id="icon" href=""><i class="fa-solid fa-play videoModalTriger"></i></a>
+                   </h4>
+                 </div>
+                 <div class="swiper-slide ssi">
+                   <img src="images/mehrunnisavlubu.jpg" id="img"/>
+                   <h4 class="he" id="h1">Fighting crime and protecting New York City is a dangerous full-time job, and Peter Parker, two years after his battle with mega-criminal Lizard in The Amazing Spider-Man (2012), finds himself bound by his promise to Stacy's late father.
+                     <br> <a id="icon" href=""><i class="fa-regular fa-eye"></i></a> <a id="icon" href=""><i class="fa-solid fa-play videoModalTriger" type="button" data-toggle="modal" data-target="#videoModal" data-videoModal="https://youtu.be/YuP8g_GQIgI"></i></a>
+                   </h4>
+                 </div>
+               </div>
+               <div class="swiper-pagination"></div>
+             </div>
+        
+     </div>
+     
+     <!-- cards end -->
+        <!-- Swiper JS -->
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+        <!-- Initialize Swiper -->
+        <script>
+          var swiper = new Swiper(".mySwiper", {
+            pagination: {
+              el: ".swiper-pagination",
+              dynamicBullets: true,
+            },
+          });
+          
+          var swiper1 = new Swiper(".mySwiper1", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+              rotate: 50,
+              stretch: 0,
+              depth: 100,
+              modifier: 1,
+              slideShadows: true,
+            },
+            pagination: {
+              el: ".swiper-pagination",
+            },
+          });
+          window.addEventListener("scroll",function(){
+            var nav = document.getElementById('nav');
+            var txt = document.getElementsByClassName('nav-link');
+            win = window.scrollY>0;
+            nav.classList.toggle('nav1',win);
+            for(i=0 ; i<txt.length ; i++){
+              txt[i].classList.toggle('text-dark',win)
+            }
+          })
+    
+</script>    
+<!-- close js -->
+<script>
+  var closebtns = document.getElementsByClassName("close");
+  var i;
+  
+  for (i = 0; i < closebtns.length; i++) {
+    closebtns[i].addEventListener("click", function() {
+      this.parentElement.style.display = 'none';
+    });
+  }
+  </script> -->
+  </body>
+</html>

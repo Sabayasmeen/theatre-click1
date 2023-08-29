@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+     <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/banner-1.jpg" type="image/x-icon">
+    
+    <!-- jquery cdn  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <style>
+      .ssi:hover #h1{
+        opacity: 1;
+        
+      }
+    </style>
+</head>
+<body>
+  
+  <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <button type="button" class="close btn-round btn-primary" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+     <header>
+          <div class="nav">
+               <nav class="navbar navbar-expand-lg navbar-light bg-*" id="nav">
+                    <div class="container-fluid">
+                         <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                         <span class="navbar-toggler-icon"></span>
+                         </button>
+                         <div class="collapse navbar-collapse" id="navbarNav">
+                         <ul class="navbar-nav">
+                              <li class="nav-item">
+                              <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                              </li>
+                              <li class="nav-item">
+                              <a class="nav-link text-light" href="#">Features</a>
+                              </li>
+                              <li class="nav-item">
+                              <a class="nav-link text-light" href="#">Pricing</a>
+                              </li>
+                              <li class="nav-item">
+                              <a class="nav-link disabled text-light">Disabled</a>
+                              </li>
+                         </ul>
+                         </div>
+                    </div>
+               </nav>
+          </div>
+             <div class="banner">
+               <!-- Swiper -->
+               <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="images/banner-4.jpg" alt="">
+                      <h1>Lorem ipsum dolor sit amet.</h1>
+                    </div>
+                    <div class="swiper-slide"><img src="images/banner-3.png" alt="">
+                      <h1>Lorem ipsum dolor sit amet.</h1></div>
+                    <div class="swiper-slide"><img src="images/banner-2.jpg" alt="">
+                      <h1>Lorem ipsum dolor sit amet.</h1></div>
+                    <div class="swiper-slide"><img src="images/banner-1.jpg" alt="">
+                      <h1>Lorem ipsum dolor sit amet.</h1></div>
+                    </div>
+                    
+                    <div class="swiper-pagination"></div>
+               </div>
+             </div>
+           
+     </header>
+      <!-- Swiper -->
+      
+          <div class="sl">
+               <div class="swiper mySwiper1">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide ssi">
+                        <img src="https://swiperjs.com/demos/images/nature-1.jpg" id="img"/>
+                        <h4 class="he" id="h1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime temporibus dolores quos officia, laborum dignissimos earum omnis ex provident illo?
+                          <br> <i class="fa-regular fa-eye"></i> <i class="fa-solid fa-play videoModalTriger" type="button" data-toggle="modal" data-target="#videoModal" data-videoModal="https://youtu.be/XziLNeFm1ok"></i>
+                        </h4>
+                      </div>
+                      <div class="swiper-slide ssi">
+                        <img src="https://swiperjs.com/demos/images/nature-1.jpg" id="img"/>
+                        <h4 class="he" id="h1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime temporibus dolores quos officia, laborum dignissimos earum omnis ex provident illo?
+                          <br> <i class="fa-regular fa-eye"></i> <i class="fa-solid fa-play"></i>
+                        </h4>
+                      </div>
+                      <div class="swiper-slide ssi">
+                        <img src="https://swiperjs.com/demos/images/nature-1.jpg" id="img"/>
+                        <h4 class="he" id="h1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime temporibus dolores quos officia, laborum dignissimos earum omnis ex provident illo?
+                          <br> <i class="fa-regular fa-eye"></i> <i class="fa-solid fa-play"></i>
+                        </h4>
+                      </div>
+                      <div class="swiper-slide ssi">
+                        <img src="https://swiperjs.com/demos/images/nature-1.jpg" id="img"/>
+                        <h4 class="he" id="h1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime temporibus dolores quos officia, laborum dignissimos earum omnis ex provident illo?
+                          <br> <i class="fa-regular fa-eye"></i> <i class="fa-solid fa-play"></i>
+                        </h4>
+                      </div>
+                      <div class="swiper-slide ssi">
+                        <img src="https://swiperjs.com/demos/images/nature-1.jpg" id="img"/>
+                        <h4 class="he" id="h1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime temporibus dolores quos officia, laborum dignissimos earum omnis ex provident illo?
+                          <br> <i class="fa-regular fa-eye"></i> <i class="fa-solid fa-play"></i>
+                        </h4>
+                      </div>
+                      <div class="swiper-slide ssi">
+                        <img src="https://swiperjs.com/demos/images/nature-1.jpg" id="img"/>
+                        <h4 class="he" id="h1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime temporibus dolores quos officia, laborum dignissimos earum omnis ex provident illo?
+                          <br> <i class="fa-regular fa-eye"></i> <i class="fa-solid fa-play"></i>
+                        </h4>
+                      </div>
+                      <div class="swiper-slide ssi">
+                        <img src="https://swiperjs.com/demos/images/nature-1.jpg" id="img"/>
+                        <h4 class="he" id="h1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime temporibus dolores quos officia, laborum dignissimos earum omnis ex provident illo?
+                          <br> <i class="fa-regular fa-eye"></i> <i class="fa-solid fa-play"></i>
+                        </h4>
+                      </div>
+                      
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+          </div>
+
+
+
+      <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+          dynamicBullets: true,
+        },
+      });
+      
+      var swiper1 = new Swiper(".mySwiper1", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+      window.addEventListener("scroll",function(){
+        var nav = document.getElementById('nav');
+        var txt = document.getElementsByClassName('nav-link');
+        win = window.scrollY>0;
+        nav.classList.toggle('nav1',win);
+        for(i=0 ; i<txt.length ; i++){
+          txt[i].classList.toggle('text-dark',win)
+        }
+      })
+
+      $(document).ready(function () {
+    autoPlayYouTubeModal();
+});
+
+function autoPlayYouTubeModal() {
+        var trigger = $('.videoModalTriger');
+    trigger.click(function () {
+        var theModal = $(this).data("target");
+        var videoSRC = $(this).attr("data-videoModal");
+        var videoSRCauto = videoSRC + "?autoplay=1";
+        $(theModal + ' iframe').attr('src', videoSRCauto);
+        $(theModal).on('hidden.bs.modal', function (e) {
+            $(theModal + ' iframe').attr('src', '');
+        });
+    });
+};
+    </script>
+   
+</body>
+</html>

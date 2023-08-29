@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing</title>
+    <link rel="stylesheet" href="css/pricing.css">
+    <!-- aos css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- aos js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- animate css -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <a href="Index.html" class="close">&times;  
+    </a>
+   
+<style>
+    .mt-50{
+        margin-top:50px;   
+    }
+    .page-content .title-inner {
+        margin-top: 0px;
+        padding: 15px;
+        margin: 0px 0px;
+    }
+    .info-bg {
+        padding: 0px 0px 0px;
+    }
+    [class*="block-grid-"] {
+        margin: 0 0rem;
+    }
+    .prices ul li {
+        border-top: 1px solid #333333;
+        border-bottom:0px;
+        padding: 0 15px;
+    }
+    .prices ul li p {
+        padding: 10px 0;
+    }
+    .page-content h1{
+        padding-bottom:5px;
+    }
+    .prices .middle {
+        top: 0;
+    }
+    .prices .right {
+        top: 12px;
+    }
+    .span-mrg {
+        float: none;
+    }
+    .mb-20{
+        margin-bottom:20px;
+    }
+    .ticket-info{
+        float:left;
+    }
+    .ticket-select-cinema{
+        float:right;
+        margin-left: 70px !important;
+    }
+    #select-ticket-site .modal-body {
+        padding: 25px;
+        border-right: 1px solid #ffffff;
+    }
+    .ticket-select-cinema select {
+       margin-bottom: 0px;
+        background: no-repeat;
+        border-radius: 0px;
+        color: #000;
+        font-size: 12px;
+        background: #FFF;
+        width: 150px;
+        text-align: center;
+    }
+    .popup-select select {
+        margin-bottom: 0px;
+        background: no-repeat;
+        border-radius: 0px;
+        color:#000000;
+        font-size: 12px;
+    }
+    .ticket-select-cinema select:focus {
+        background: none;
+        color: #fff;
+        border-color: snow;
+    }
+    #select-ticket-site .modal-content {
+        width: 300px;
+        margin: 0 auto;
+        margin-top: 40%;
+        border-radius: 0px;
+    }
+    #select-ticket-site h4.modal-title {
+        color: #000;
+        font-size: 14px;
+    }
+    #select-ticket-site .modal-header {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background: #f6f6f6;
+        border-right: 1px solid #f6f6f6;
+    }
+    #select-ticket-site button.close {
+        margin-right: -4px;
+        padding: 0;
+        color: #f00;
+        margin-top: -2px;
+        font-size: 30px;
+        opacity: 1;
+        position: absolute;
+        right: -5px;
+        top: -10px;
+        background: #fff;
+        width: 40px;
+        height: 40px;
+        border-radius: 40px;
+        text-shadow: none;
+    }
+    #h11{
+        color: #f6f6f6;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .row1{
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .mainpart{
+        padding-bottom: 25px !important;
+    }
+    #heading1{
+        color: #f6f6f6;
+        background-color: rgb(107, 107, 107) !important;
+    }
+    #rupee{
+        padding-left: 30.3%;
+        color: white;
+        font-size: 17px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    #lineup{
+        padding-left: 3%;
+    }
+    #lineup1{
+        padding-left: 4%;
+    }
+    .close{
+    width: 2%;
+    line-height: 0.7% !important;
+    font-size: 45px !important;
+    color: white !important;
+    margin-bottom: 1% !important;
+    margin-right: 97%;  
+    font-size: 50px;
+    transition: all 0.3s ease;
+  background-color: #fff;
+}
+
+.close:hover{
+    color: rgb(255, 0, 0) !important;
+}
+    </style>
+    <div data-aos="zoom-in" class="container">
+        <div class="page-content mt-50">
+            
+        <div class="row-">
+            
+        <div class="small-12 columns- mb-20">
+            <div class="row">
+                <div class="medium-12 columns-">
+                    <div class="ticket-info">
+                        <h1 id="h11" class="inner-page-title">TICKETS PRICING</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="table-responsive ticket">
+        <table class="table">
+          <thead>
+            <tr id="heading1">
+              <th scope="col"><img src="http://www.nueplex.com//assets/web/images/2d.png"  class="ticket-icon">
+                <span class="ticket-title">Digital 2D Movies Standard Rates</span>
+              </th>
+               <th class="mainpart">Theatre 1 to 4</th>
+              <th class="mainpart" >Open Air Theatre</th>
+              <th class="mainpart" >Royal Theatre</th>
+                      </tr>
+          </thead>
+          <tbody>
+                       <tr>
+           
+             
+              <th class="row1" scope="row">  Ghabrana Nahi Hai   </th>
+                        
+              <td class="row1" >Rs. 900</td>
+              <td class="row1" >Rs. 900</td>
+              <td class="row1" >Rs. 1300</td>
+                      </tr>
+                    <tr>
+           
+             
+              <th class="row1" scope="row">  Parde Mein Rehne Do   </th>
+                        
+              <td class="row1">Rs. 900</td>
+              <td class="row1">Rs. 900</td>
+              <td class="row1">Rs. 1300</td>
+                      </tr>
+                    <tr>
+           
+             
+              <th class="row1" scope="row">  Dum Mastam   </th>
+                        
+              <td class="row1" >Rs. 900</td>
+              <td class="row1" >Rs. 900</td>
+              <td class="row1" >Rs. 1300</td>
+                      </tr>
+                    <tr>
+           
+             
+              <th class="row1" scope="row">  Chakkar   </th>
+                          
+              <td class="row1" >Rs. 900</td>
+              <td class="row1" >Rs. 900</td>
+              <td class="row1" >Rs. 1300</td>
+                        </tr>
+                    <tr>
+           
+             
+              <th class="row1" scope="row">  Sonic the Hedgehog 2   </th>
+                        
+              <td class="row1" >Rs. 900</td>
+              <td class="row1" >Rs. 900</td>
+              <td class="row1" >Rs. 1300</td>
+                       </tr>
+                     <tr>
+            
+              
+              <th class="row1" scope="row">  Top Gun: Maverick   </th>
+                         
+              <td class="row1" >Rs. 900</td>
+              <td class="row1" >Rs. 900</td>
+              <td class="row1" >Rs. 1300</td>
+                      </tr>
+                    
+        
+          </tbody>
+        </table>
+        
+                </div>  
+        
+        <div class="table-responsive ticket">
+        <table class="table">
+          <thead id="heading1">
+            <tr>
+              <th scope="col"><img src="http://www.nueplex.com//assets/web/images/3d.png"  class="ticket-icon">
+                 <span class="ticket-title">Digital 3D Movies Standard Rates</span>
+              </th>
+             
+                           <th class="mainpart" >Theatre 1 to 4</th>
+              <th class="mainpart" >Royal Theatre</th>
+                      </tr>
+          </thead>
+          <tbody>
+                     <tr>
+              <th class="row1" scope="row">  Doctor Strange in the Multiverse of Madness   </th>
+    
+              <td id="lineup" class="row1" >Rs. 1000</td>
+              <td id="lineup1" class="row1" >Rs. 1400</td>
+             </tr class="row1" >
+                           
+          </tbody>
+        </table>
+        
+                </div>  
+        
+        <div class="table-responsive ticket movie-glasses">
+        <table class="table">
+          <thead id="heading1">
+            <tr>
+                <th id="heading1" colspan="2"><span class="ticket-title">3D Movie Glasses</span></th>
+            </tr>
+          </thead>
+          <tbody>
+              
+            <tr>
+              <th class="row1" scope="row">Standard</th>
+              <td id="rupee">Rs 350/-</td>
+            </tr>
+                   </tbody>
+        </table>
+        </div>
+            
+            
+        </div>
+        <div class="row">
+        <!-- <div class="col-md-12 col-sm-12"> -->
+        <!-- <p style="padding-left:60%;"> <span style="color:red;">*</span> VALUE ADDED SERVICES CHARGE Rs 250/-</p> -->
+        <!-- </div> -->
+        </div>
+        <div class="row">
+            <div class="small-12 columns">
+    
+                <p></p><div>
+                    <script>
+                        AOS.init();
+                   </script>
+    <script>
+        var closebtns = document.getElementsByClassName("close");
+        var i;
+        
+        for (i = 0; i < closebtns.length; i++) {
+          closebtns[i].addEventListener("click", function() {
+            this.parentElement.style.display = 'none';
+          });
+        }
+        </script>
+</body>
+</html>

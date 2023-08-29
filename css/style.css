@@ -1,0 +1,132 @@
+/* html,
+body {
+  position: relative;
+  height: 100%;
+} */
+
+body {
+  background: transparent;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+.nav1{
+  background-color: white;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+     /* z-index: -81; */
+     margin-top: 0;
+
+}
+.banner h1{
+  position: absolute;
+  color: white;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.nav{
+  width: 100%;
+  position: fixed;
+  z-index: 99999;
+  background-color: transparent ;  
+  
+}
+.navbar{
+  width: 100%;
+  transition:1s .1s ease;
+}
+.navbar-nav .nav-link{
+  color: white;
+}
+.sl{
+  height: 550px;
+  padding-top: 700px;
+}
+.sl .swiper-wrapper{
+  height: 550px;
+}
+.sl .swiper-slide{
+  width: 30%;
+  height: 500px;
+}
+.sl .he{
+  position: absolute;
+  opacity: 0;
+  z-index: 11;
+  color: white;
+  margin-top: -500px;
+  transition: 2s .0s ease;
+  width: 80%;
+}
+.ssi:hover #h1{
+  transform: translateY(200px);
+}
+.sl i{
+  cursor: pointer;
+}
+.ssi::after{
+    content: "";
+    width: 80%;
+    height: 0%;
+    top: 0;
+    position: absolute;
+    background-color: #000;
+    opacity: 0.7;
+    transition: .5s .1s ease;
+}
+.ssi:hover::after{
+  height: 90%;
+}
+
+/* .swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+} */
+@media(max-width:750px){
+  .sl .swiper-slide{
+    width: 50%;
+    height: 300px;
+  }
+}

@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)http://pixner.net/boleto/demo/movie-seat-plan.html -->
+<html lang="en" class=" sizes customelements history pointerevents postmessage webgl websockets cssanimations csscolumns csscolumns-width csscolumns-span csscolumns-fill csscolumns-gap csscolumns-rule csscolumns-rulecolor csscolumns-rulestyle csscolumns-rulewidth csscolumns-breakbefore csscolumns-breakafter csscolumns-breakinside flexbox picture srcset webworkers"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="./Boleto_files/bootstrap.min.css">
+    <link rel="stylesheet" href="./Boleto_files/all.min.css">
+    <link rel="stylesheet" href="./Boleto_files/animate.css">
+    <link rel="stylesheet" href="./Boleto_files/flaticon.css">
+    <link rel="stylesheet" href="./Boleto_files/magnific-popup.css">
+    <link rel="stylesheet" href="./Boleto_files/odometer.css">
+    <link rel="stylesheet" href="./Boleto_files/owl.carousel.min.css">
+    <link rel="stylesheet" href="./Boleto_files/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./Boleto_files/nice-select.css">
+    <link rel="stylesheet" href="./Boleto_files/main.css">
+
+    <link rel="shortcut icon" href="http://pixner.net/boleto/demo/assets/images/favicon.png" type="image/x-icon">
+
+    <title>Boleto  - Online Ticket Booking Website HTML Template</title>
+
+
+</head>
+
+<body>
+    <!-- ==========Preloader========== -->
+    <div class="preloader" style="display: none;">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- ==========Preloader========== -->
+    <!-- ==========Overlay========== -->
+    <div class="overlay"></div>
+    <a href="http://pixner.net/boleto/demo/movie-seat-plan.html#0" class="scrollToTop">
+        <i class="fas fa-angle-up"></i>
+    </a>
+    <!-- ==========Overlay========== -->
+
+    <!-- ==========Header-Section========== -->
+    <header class="header-section">
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="logo">
+                    <a href="http://pixner.net/boleto/demo/index.html">
+                        <img src="./Boleto_files/logo.png" alt="logo">
+                    </a>
+                </div>
+                <ul class="menu">
+                    <li class="menu-item-has-children">
+                        <a href="http://pixner.net/boleto/demo/movie-seat-plan.html#0">Home</a>
+                        <ul class="submenu">
+                            <li>
+                                <a href="http://pixner.net/boleto/demo/index.html">Home One</a>
+                            </li>
+                            <li>
+                                <a href="http://pixner.net/boleto/demo/index-2.html">Home Two</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="http://pixner.net/boleto/demo/movie-seat-plan.html#0" class="active">movies</a>
+                        <ul class="submenu">
+                            <li>
+                                <a href="http://pixner.net/boleto/demo/movie-grid.html">Movie Grid</a>
+                            </li>
+                            <li>
+                                <a href="http://pixner.net/boleto/demo/movie-list.html">Movie List</a>
+                            </li>
+                            <li>
+                                <a href="http://pixner.net/boleto/demo/movie-details.html">Movie Details</a>
+                            </li>
+                            <li>
+                                <a href="http://pixner.net/boleto/demo/movie-details-2.html">Movie Details 2</a>
+                            </li>
+                            <li>
+                                <a href="http://pixner.net/boleto/demo/movie-ticket-plan.html">Movie Ticket Plan</a>
+                            </li>
+                            <li>
+                                <a href="http://pixner.net/boleto/demo/movie-seat-plan.html#0" class="active">Movie Seat Plan</a>
+                            </li>
+                            <li>
+                                <a href="http://pixner.net/boleto/demo/movie-checkout.html">Movie Checkout</a>
+                            </li>
+                            <li>
+                                <a href="http://pixner.net/boleto/demo/popcorn.html">Movie Food</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="http://pixner.net/boleto/demo/movie-seat-plan.html#0">events</a>
+                        <ul class="submenu">
+                            <li>
+                                <a href="http://pixner.net/boleto/demo/events.html">Events</a>
+                            </li>
+                            <li>
+                                <a href="http://pixner.net/boleto/demo/event-details.html">Event Details</a>
+                            </li>
+                            <li>
+                                <a href="http://pixner.net/boleto/demo/event-speaker.html">Event Speaker</a>
+                            </li>
+                            <li>
+                                <a href="http://pixner.net/boleto/demo/event-ticket.html">Event Ticket</a>
+                            </li>
+                            <li>
+                                <a href="http://pixner.net/boleto/demo/event-checkout.html">Event Checkout</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="http://pixner.net/boleto/demo/movie-seat-plan.html#0">sports</a>
+                        <ul class="submenu">
+                            <li>
+                                <a href="http://pixner.net/boleto/demo/sports.html">Sports</a>
+                            </li>
+                            <li>
+                                <a href="http://pixner.net/boleto/demo/sport-details.html">Sport Details</a>
+                            </li>
+                            <li>
+                                <a href="http://pixner.net/boleto/demo/sports-ticket.html">Sport Ticket</a>
+                            </li>
+                            <li>
+                                <a href="http://pixner.net/boleto/demo/sports-checkout.html">Sport Checkout</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="http://pixner.net/boleto/demo/movie-seat-plan.html#0">pages</a>
+                        <ul class="submenu">
+                            <li>
+                                <a href="http://pixner.net/boleto/demo/about.html">About Us</a>
+                            </li>
+                            <li>
+                                <a href="http://pixner.net/boleto/demo/apps-download.html">Apps Download</a>
+                            </li>
+                            <li>
+                                <a href="http://pixner.net/boleto/demo/sign-in.html">Sign In</a>
+                            </li>
+                            <li>
+                                <a href="http://pixner.net/boleto/demo/sign-up.html">Sign Up</a>
+                            </li>
+                            <li>
+                                <a href="http://pixner.net/boleto/demo/404.html">404</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="http://pixner.net/boleto/demo/movie-seat-plan.html#0">blog</a>
+                        <ul class="submenu">
+                            <li>
+                                <a href="http://pixner.net/boleto/demo/blog.html">Blog</a>
+                            </li>
+                            <li>
+                                <a href="http://pixner.net/boleto/demo/blog-details.html">Blog Single</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="http://pixner.net/boleto/demo/contact.html">contact</a>
+                    </li>
+                    <li class="header-button pr-0">
+                        <a href="http://pixner.net/boleto/demo/sign-up.html">join us</a>
+                    </li>
+                </ul>
+                <div class="header-bar d-lg-none">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+            </div>
+        </div>
+    </header>
+    <!-- ==========Header-Section========== -->
+
+    <!-- ==========Banner-Section========== -->
+    <section class="details-banner hero-area bg_img seat-plan-banner" data-background="./assets/images/banner/banner04.jpg" style="background-image: url(&quot;./assets/images/banner/banner04.jpg&quot;);">
+        <div class="container">
+            <div class="details-banner-wrapper">
+                <div class="details-banner-content style-two">
+                    <h3 class="title">Venus</h3>
+                    <div class="tags">
+                        <a href="http://pixner.net/boleto/demo/movie-seat-plan.html#0">City Walk</a>
+                        <a href="http://pixner.net/boleto/demo/movie-seat-plan.html#0">English - 2D</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==========Banner-Section========== -->
+
+    <!-- ==========Page-Title========== -->
+    <section class="page-title bg-one">
+        <div class="container">
+            <div class="page-title-area">
+                <div class="item md-order-1">
+                    <a href="http://pixner.net/boleto/demo/movie-ticket-plan.html" class="custom-button back-button">
+                        <i class="flaticon-double-right-arrows-angles"></i>back
+                    </a>
+                </div>
+                <div class="item date-item">
+                    <span class="date">MON, SEP 09 2020</span>
+                    <select class="select-bar" style="display: none;">
+                        <option value="sc1">09:40</option>
+                        <option value="sc2">13:45</option>
+                        <option value="sc3">15:45</option>
+                        <option value="sc4">19:50</option>
+                    </select><div class="nice-select select-bar" tabindex="0"><span class="current">09:40</span><ul class="list"><li data-value="sc1" class="option selected">09:40</li><li data-value="sc2" class="option">13:45</li><li data-value="sc3" class="option">15:45</li><li data-value="sc4" class="option">19:50</li></ul></div>
+                </div>
+                <div class="item">
+                    <h5 class="title">05:00</h5>
+                    <p>Mins Left</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==========Page-Title========== -->
+
+    <!-- ==========Movie-Section========== -->
+    <div class="seat-plan-section padding-bottom padding-top">
+        <div class="container">
+            <div class="screen-area">
+                <h4 class="screen">screen</h4>
+                <div class="screen-thumb">
+                    <img src="./Boleto_files/screen-thumb.png" alt="movie">
+                </div>
+                <h5 class="subtitle">silver plus</h5>
+                <div class="screen-wrapper">
+                    <ul class="seat-area">
+                        <li class="seat-line">
+                            <span>G</span>
+                            <ul class="seat--area">
+                                <li class="front-seat">
+                                    <ul>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat01.png" alt="seat">
+                                        </li>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat01.png" alt="seat">
+                                        </li>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat01.png" alt="seat">
+                                        </li>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat01.png" alt="seat">
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="front-seat">
+                                    <ul>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat01.png" alt="seat">
+                                        </li>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat01.png" alt="seat">
+                                        </li>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat01.png" alt="seat">
+                                        </li>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat01.png" alt="seat">
+                                        </li>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat01.png" alt="seat">
+                                        </li>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat01.png" alt="seat">
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="front-seat">
+                                    <ul>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat01.png" alt="seat">
+                                        </li>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat01.png" alt="seat">
+                                        </li>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat01.png" alt="seat">
+                                        </li>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat01.png" alt="seat">
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <span>G</span>
+                        </li>
+                        <li class="seat-line">
+                            <span>f</span>
+                            <ul class="seat--area">
+                                <li class="front-seat">
+                                    <ul>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat01.png" alt="seat">
+                                        </li>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat01.png" alt="seat">
+                                        </li>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat01.png" alt="seat">
+                                        </li>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat01.png" alt="seat">
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="front-seat">
+                                    <ul>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat01.png" alt="seat">
+                                        </li>
+                                        <li class="single-seat seat-free">
+                                            <img src="./Boleto_files/seat01-free.png" alt="seat">
+                                            <span class="sit-num">f7</span>
+                                        </li>
+                                        <li class="single-seat seat-free">
+                                            <img src="./Boleto_files/seat01-free.png" alt="seat">
+                                            <span class="sit-num">f8</span>
+                                        </li>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat01.png" alt="seat">
+                                        </li>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat01.png" alt="seat">
+                                        </li>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat01.png" alt="seat">
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="front-seat">
+                                    <ul>
+                                        <li class="single-seat seat-free">
+                                            <img src="./Boleto_files/seat01-free.png" alt="seat">
+                                            <span class="sit-num">f9</span>
+                                        </li>
+                                        <li class="single-seat seat-free">
+                                            <img src="./Boleto_files/seat01-free.png" alt="seat">
+                                            <span class="sit-num">f10</span>
+                                        </li>
+                                        <li class="single-seat seat-free">
+                                            <img src="./Boleto_files/seat01-free.png" alt="seat">
+                                            <span class="sit-num">f11</span>
+                                        </li>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat01.png" alt="seat">
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <span>f</span>
+                        </li>
+                    </ul>
+                </div>
+                <h5 class="subtitle">silver plus</h5>
+                <div class="screen-wrapper">
+                    <ul class="seat-area couple">
+                        <li class="seat-line">
+                            <span>e</span>
+                            <ul class="seat--area">
+                                <li class="front-seat">
+                                    <ul>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat02.png" alt="seat">
+                                        </li>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat02.png" alt="seat">
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="front-seat">
+                                    <ul>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat02.png" alt="seat">
+                                        </li>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat02.png" alt="seat">
+                                        </li>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat02.png" alt="seat">
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="front-seat">
+                                    <ul>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat02.png" alt="seat">
+                                        </li>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat02.png" alt="seat">
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <span>e</span>
+                        </li>
+                        <li class="seat-line">
+                            <span>d</span>
+                            <ul class="seat--area">
+                                <li class="front-seat">
+                                    <ul>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat02.png" alt="seat">
+                                        </li>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat02.png" alt="seat">
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="front-seat">
+                                    <ul>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat02.png" alt="seat">
+                                        </li>
+                                        <li class="single-seat seat-free-two">
+                                            <img src="./Boleto_files/seat02-booked.png" alt="seat">
+                                            <span class="sit-num">D7 D8</span>
+                                        </li>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat02.png" alt="seat">
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="front-seat">
+                                    <ul>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat02.png" alt="seat">
+                                        </li>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat02.png" alt="seat">
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <span>d</span>
+                        </li>
+                        <li class="seat-line">
+                            <span>c</span>
+                            <ul class="seat--area">
+                                <li class="front-seat">
+                                    <ul>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat02.png" alt="seat">
+                                        </li>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat02.png" alt="seat">
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="front-seat">
+                                    <ul>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat02.png" alt="seat">
+                                        </li>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat02.png" alt="seat">
+                                        </li>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat02.png" alt="seat">
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="front-seat">
+                                    <ul>
+                                        <li class="single-seat seat-free-two">
+                                            <img src="./Boleto_files/seat02-free.png" alt="seat">
+                                            <span class="sit-num">f11 f12</span>
+                                        </li>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat02.png" alt="seat">
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <span>c</span>
+                        </li>
+                        <li class="seat-line">
+                            <span>b</span>
+                            <ul class="seat--area">
+                                <li class="front-seat">
+                                    <ul>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat02.png" alt="seat">
+                                        </li>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat02.png" alt="seat">
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="front-seat">
+                                    <ul>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat02.png" alt="seat">
+                                        </li>
+                                        <li class="single-seat seat-free-two">
+                                            <img src="./Boleto_files/seat02-free.png" alt="seat">
+                                            <span class="sit-num">b7 b8</span>
+                                        </li>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat02.png" alt="seat">
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="front-seat">
+                                    <ul>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat02.png" alt="seat">
+                                        </li>
+                                        <li class="single-seat">
+                                            <img src="./Boleto_files/seat02.png" alt="seat">
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <span>b</span>
+                        </li>
+                        <li class="seat-line">
+                            <span>a</span>
+                            <ul class="seat--area">
+                                <li class="front-seat">
+                                    <ul>
+                                        <li class="single-seat seat-free-two">
+                                            <img src="./Boleto_files/seat02-free.png" alt="seat">
+                                            <span class="sit-num">a1 a2</span>
+                                        </li>
+                                        <li class="single-seat seat-free-two">
+                                            <img src="./Boleto_files/seat02-free.png" alt="seat">
+                                            <span class="sit-num">a3 a4</span>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="front-seat">
+                                    <ul>
+                                        <li class="single-seat seat-free-two">
+                                            <img src="./Boleto_files/seat02-free.png" alt="seat">
+                                            <span class="sit-num">a5 a6</span>
+                                        </li>
+                                        <li class="single-seat seat-free-two">
+                                            <img src="./Boleto_files/seat02-free.png" alt="seat">
+                                            <span class="sit-num">a7 a8</span>
+                                        </li>
+                                        <li class="single-seat seat-free-two">
+                                            <img src="./Boleto_files/seat02-free.png" alt="seat">
+                                            <span class="sit-num">a9 a10</span>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="front-seat">
+                                    <ul>
+                                        <li class="single-seat seat-free-two">
+                                            <img src="./Boleto_files/seat02-free.png" alt="seat">
+                                            <span class="sit-num">a11</span>
+                                        </li>
+                                        <li class="single-seat seat-free-two">
+                                            <img src="./Boleto_files/seat02-free.png" alt="seat">
+                                            <span class="sit-num">a12</span>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <span>a</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="proceed-book bg_img" data-background="./assets/images/movie/movie-bg-proceed.jpg" style="background-image: url(&quot;./assets/images/movie/movie-bg-proceed.jpg&quot;);">
+                <div class="proceed-to-book">
+                    <div class="book-item">
+                        <span>You have Choosed Seat</span>
+                        <h3 class="title">d9, d10</h3>
+                    </div>
+                    <div class="book-item">
+                        <span>total price</span>
+                        <h3 class="title">$150</h3>
+                    </div>
+                    <div class="book-item">
+                        <a href="http://pixner.net/boleto/demo/movie-checkout.html" class="custom-button">proceed</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ==========Movie-Section========== -->
+
+    <!-- ==========Newslater-Section========== -->
+    <footer class="footer-section">
+        <div class="newslater-section padding-bottom">
+            <div class="container">
+                <div class="newslater-container bg_img" data-background="./assets/images/newslater/newslater-bg01.jpg" style="background-image: url(&quot;./assets/images/newslater/newslater-bg01.jpg&quot;);">
+                    <div class="newslater-wrapper">
+                        <h5 class="cate">subscribe to Boleto </h5>
+                        <h3 class="title">to get exclusive benifits</h3>
+                        <form class="newslater-form">
+                            <input type="text" placeholder="Your Email Address">
+                            <button type="submit">subscribe</button>
+                        </form>
+                        <p>We respect your privacy, so we never share your info</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="footer-top">
+                <div class="logo">
+                    <a href="http://pixner.net/boleto/demo/index-1.html">
+                        <img src="./Boleto_files/footer-logo.png" alt="footer">
+                    </a>
+                </div>
+                <ul class="social-icons">
+                    <li>
+                        <a href="http://pixner.net/boleto/demo/movie-seat-plan.html#0">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://pixner.net/boleto/demo/movie-seat-plan.html#0" class="active">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://pixner.net/boleto/demo/movie-seat-plan.html#0">
+                            <i class="fab fa-pinterest-p"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://pixner.net/boleto/demo/movie-seat-plan.html#0">
+                            <i class="fab fa-google"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://pixner.net/boleto/demo/movie-seat-plan.html#0">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom-area">
+                    <div class="left">
+                        <p>Copyright © 2020.All Rights Reserved By <a href="http://pixner.net/boleto/demo/movie-seat-plan.html#0">Boleto </a></p>
+                    </div>
+                    <ul class="links">
+                        <li>
+                            <a href="http://pixner.net/boleto/demo/movie-seat-plan.html#0">About</a>
+                        </li>
+                        <li>
+                            <a href="http://pixner.net/boleto/demo/movie-seat-plan.html#0">Terms Of Use</a>
+                        </li>
+                        <li>
+                            <a href="http://pixner.net/boleto/demo/movie-seat-plan.html#0">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="http://pixner.net/boleto/demo/movie-seat-plan.html#0">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="http://pixner.net/boleto/demo/movie-seat-plan.html#0">Feedback</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ==========Newslater-Section========== -->
+
+
+    <script src="./Boleto_files/jquery-3.3.1.min.js.download"></script>
+    <script src="./Boleto_files/modernizr-3.6.0.min.js.download"></script>
+    <script src="./Boleto_files/plugins.js.download"></script>
+    <script src="./Boleto_files/bootstrap.min.js.download"></script>
+    <script src="./Boleto_files/isotope.pkgd.min.js.download"></script>
+    <script src="./Boleto_files/magnific-popup.min.js.download"></script>
+    <script src="./Boleto_files/owl.carousel.min.js.download"></script>
+    <script src="./Boleto_files/wow.min.js.download"></script>
+    <script src="./Boleto_files/countdown.min.js.download"></script>
+    <script src="./Boleto_files/odometer.min.js.download"></script>
+    <script src="./Boleto_files/viewport.jquery.js.download"></script>
+    <script src="./Boleto_files/nice-select.js.download"></script>
+    <script src="./Boleto_files/main.js.download"></script>
+
+
+</body></html>

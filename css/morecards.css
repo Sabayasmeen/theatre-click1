@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.swiper{
+  top: 40px !important;
+}
+#heading1{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    margin: 1.5%;
+  }
+  #heading2{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    margin: 1.5%;
+  }
+  #heading3{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    margin: 1.5%;
+  }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+    
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .nav{
+      width: 100%;
+      position: fixed;
+      z-index: 99999;
+      background-color: transparent ;  
+      
+    }
+    .nav1{
+      background-color: rgba(0, 0, 0,0.7);
+    }
+    .navbar{
+      width: 100%;
+      transition:1s .1s ease;
+      }
+    .navbar-nav .nav-link{
+      color: white;
+    }
+    .sl{
+      height: 550px;
+      padding-top: 700px;
+    }
+    .sl .swiper-wrapper{
+      height: 580px;
+    }
+    .sl .swiper-slide{
+      width: 30%;
+      height: -500px;
+    }
+    #icon{
+      color: white;
+    }
+    .sl .he{
+      position: absolute;
+      opacity: 0;
+      z-index: 11;
+      color: white;
+      margin-top: -400px;
+      transition: 2s .0s ease;
+      width: 80%;
+    }
+    .ssi:hover #h1{
+      transform: translateY(200px);
+    }
+    .sl i{
+      cursor: pointer;
+    }
+    .ssi::after{
+        content: "";
+        width: 80%;
+        height: 0%;
+        top: 0;
+        position: absolute;
+        background-color: #000;
+        opacity: 0.7;
+        transition: .5s .1s ease;
+    }
+    .ssi:hover::after{
+      height: 90%;
+    }
+    #collection{
+      align-items:  center;
+    }
+    @media(max-width:750px){
+      .sl .swiper-slide{
+        width: 50%;
+        height: 300px;
+      }
+  
+    }
+    #button1{
+      margin-top: 90%;
+    }
+    .swiper{
+      bottom: 90px;
+    }
+    #h1{
+      bottom: 70px;
+    }
+    .myswiper1{
+      bottom: 30px;
+    }
+    .close{
+   width: 2%;
+   line-height: 70% !important;
+   font-size: 45px !important;
+   top: 50px !important;
+   bottom: 36px;
+   color: rgb(0, 0, 0);
+   background-color: rgb(107, 107, 0);
+   margin-left: 33px;  
+   text-decoration: none;
+   font-size: 45px;
+   transition: all 0.3s ease;
+ background-color: #fff;
+}
+
+.close:hover{
+   color: rgb(255, 0, 0);
+}
+    /* cards end */

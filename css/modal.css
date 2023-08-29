@@ -1,0 +1,16 @@
+
+.modal-dialog {
+      max-width: 1000px;
+      margin-left: 180px;
+  }
+
+.modal-body {
+  position:relative;
+  padding:0px;
+}
+.btn-close {
+  position:absolute;
+  right:-30px;
+  top:0;
+  color: white;
+}
